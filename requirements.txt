@@ -1,3 +1,0 @@
-# Dependencias del servidor MCP de monitoreo de pagos
-mcp>=0.6.0
-asyncio-stubs
