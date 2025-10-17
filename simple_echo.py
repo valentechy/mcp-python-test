@@ -19,7 +19,7 @@ def echo(text: str) -> str:
 def get_weather(location: str) -> dict:
     """Gets current weather for a location."""
     return {
-        "temperature": 72.5,
+        "temperature": 84.5,
         "conditions": "Sunny",
         "location": location
     }
