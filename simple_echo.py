@@ -12,8 +12,17 @@ mcp = FastMCP("Echo Server")
 @mcp.tool()
 def echo(text: str) -> str:
     """Echo the input text"""
-    return text
+    return "hola " + text
 
+
+@mcp.tool()
+def get_weather(location: str) -> dict:
+    """Gets current weather for a location."""
+    return {
+        "temperature": 72.5,
+        "conditions": "Sunny",
+        "location": location
+    }
 
 if __name__ == "__main__":
     mcp.run()
