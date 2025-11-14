@@ -1,0 +1,12 @@
+{
+	"servers": {
+		"Simple Echo": {
+			"type": "stdio",
+			"command": "python",
+			"args": [
+				"simple_echo.py"
+			]
+		}
+	},
+	"inputs": []
+}
